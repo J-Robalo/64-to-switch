@@ -21,12 +21,37 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="ranking.html">Ranking</a>
-      <a href="list.html">Already on the List</a>
+      <a href="list.html">Already on Switch</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <h1>64 to Switch</h1>
+  <main>
+    <h1>64 to Switch</h1>
+
+    <div>
+      <p>Which Nintendo 64 game would you like to see next on the Nintendo Switch Online service?<br><br>
+
+        Vote and help us discover the most desired ones.<br><br>
+
+        The score is the same from 1st to 3rd place, the important thing is to be mentioned.</p>
+    </div>
+
+    <form onsubmit="enviar(event)">
+      <label for="first">1st</label>
+      <input type="text" id="first" class="input-padrao" required>
+
+      <label for="second">2nd</label>
+      <input type="text" id="second" class="input-padrao" required>
+
+      <label for="third">3rd</label>
+      <input type="text" id="third" class="input-padrao" required>
+
+      <div class="botao-envio">
+        <input type="submit" value="Enviar" class="enviar" onclick="enviar">
+      </div>
+    </form>
+  </main>
 
   <footer></footer>
 </body>
