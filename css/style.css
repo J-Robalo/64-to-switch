@@ -82,3 +82,15 @@ footer {
   border-top-width: 4px;
   border-top-color: #000;
 }
+
+.lista-geral {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.coluna-jogos {
+  background: #e70013;
+  border: 2px;
+  border-radius: 5px;
+}
