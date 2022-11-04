@@ -38,6 +38,10 @@ a:hover {
   transform: scale(1.1);
 }
 
+.tela-inicial {
+  height: 100vh;
+}
+
 h1 {
   display: flex;
   font-family: "Press Start 2P", sans-serif;
@@ -60,14 +64,24 @@ h1 {
   width: 50%;
 }
 
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #e70013;
+  width: 50%;
+}
+
 form {
   display: flex;
   flex-direction: column;
   width: 30%;
+  color: white;
 }
 
 .enviar {
-  width: 22%;
+  width: 45%;
   padding: 10px 0;
   background: #b5000d;
   color: white;
@@ -82,7 +96,7 @@ form {
 footer {
   display: flex;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
   height: 20px;
   padding: 20px 20px;
@@ -101,15 +115,14 @@ footer {
 }
 
 .coluna-jogos {
-  background: #e70013;
+  background: #b5000d;
   border-radius: 5px;
   border: 2px solid #000;
   color: white;
   width: 300px;
 }
 
-.titulo-lista {
-  padding: 20px;
-  align-items: center;
-  border: 2px solid #000;
+.foto-lista {
+  display: flex;
+  height: 150px;
 }
