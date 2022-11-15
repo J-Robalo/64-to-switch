@@ -9,5 +9,5 @@ button.addEventListener("click", function () {
     return (button.textContent = "Return");
   }
 
-  button.textContent = "Full list";
+  button.textContent = "Full lists";
 });
