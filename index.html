@@ -54,38 +54,16 @@
   <section id="vote">
     <h2>Your 10 most wanted N64 games</h2>
     <form>
-      <label for="first">1st</label>
-      <input type="text" id="first" class="input-padrao" required>
+      <input type="text" class="input-padrao" required>
 
-      <label for="second">2nd</label>
-      <input type="text" id="second" class="input-padrao">
+      <input type="text" class="input-padrao">
 
-      <label for="third">3rd</label>
-      <input type="text" id="third" class="input-padrao">
+      <input type="text" class="input-padrao">
 
-      <label for="third">4th</label>
-      <input type="text" id="fourth" class="input-padrao">
-
-      <label for="third">5th</label>
-      <input type="text" id="fifth" class="input-padrao">
-
-      <label for="third">6th</label>
-      <input type="text" id="sixth" class="input-padrao">
-
-      <label for="third">7th</label>
-      <input type="text" id="seventh" class="input-padrao">
-
-      <label for="third">8th</label>
-      <input type="text" id="eighth" class="input-padrao">
-
-      <label for="third">9th</label>
-      <input type="text" id="ninth" class="input-padrao">
-
-      <label for="third">10th</label>
-      <input type="text" id="tenth" class="input-padrao">
+      <p class="botao-adicionar" onclick="addGame()">+</p>
 
       <div class="botao-envio">
-        <input type="submit" value="Enviar" class="enviar" onclick="enviar">
+        <input type="submit" value="Enviar" class="enviar" onclick="getGames(event)">
       </div>
     </form>
   </section>
